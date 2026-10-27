@@ -33,6 +33,17 @@ Veja a [revisão para praticar](docs/revisao.md) e as [correções e ressalvas t
 3. Altere um parâmetro, faça uma previsão e compare o resultado.
 4. Volte ao vídeo ou às fontes primárias quando houver dúvida.
 
+## Exemplos executáveis
+
+Na branch `modulo-01-concorrencia-multithreading`, instale **JDK 21+** e Maven 3.9+, então execute:
+
+```bash
+mvn verify
+java -cp target/classes dev.jagella.pos.concorrencia.App
+```
+
+Os exemplos cobrem pool fixo, mapa concorrente, `CountDownLatch`, Fork/Join, composição assíncrona, stream paralelo e threads virtuais com semáforo. São cargas pequenas para estudo, sem pretensão de benchmark ou de simular um serviço de produção. Os testes verificam resultados, propagação de falha e limite de acesso simultâneo.
+
 ## Fontes e limites
 
 Os títulos e a estrutura foram conferidos no portal. Os resumos foram escritos a partir do **material autoral**, dos **slides da disciplina** e das **legendas automáticas do player**; as legendas podem conter erros de reconhecimento. Os exemplos são adaptações próprias, não cópias do [repositório apresentado pelo professor](https://github.com/eldermoraes/unipds/tree/main/Concorrencia-Multithreading). Arquivos de mídia, PDFs e endereços temporários de sessão ficam somente na máquina local.
