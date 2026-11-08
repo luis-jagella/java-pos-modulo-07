@@ -24,7 +24,7 @@ Os checks abaixo indicam **anotações registradas no Git**, não certificam que
 - [x] [09 — Mão na Massa](docs/aulas/aula-09.md)
 - [x] [Podcast 01 — Polêmicas e opiniões dev](docs/podcast-01.md)
 
-Veja a [revisão para praticar](docs/revisao.md) e as [correções e ressalvas técnicas](docs/ressalvas.md).
+Veja a [revisão para praticar](docs/revisao.md), o [gabarito comentado](docs/gabarito-revisao.md) e as [correções e ressalvas técnicas](docs/ressalvas.md).
 
 ## Como estudar
 
