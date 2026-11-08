@@ -24,7 +24,7 @@ Os checks abaixo indicam **anotações registradas no Git**, não certificam que
 - [x] [09 — Mão na Massa](docs/aulas/aula-09.md)
 - [x] [Podcast 01 — Polêmicas e opiniões dev](docs/podcast-01.md)
 
-Veja a [revisão para praticar](docs/revisao.md) e as [correções e ressalvas técnicas](docs/ressalvas.md).
+Veja a [revisão para praticar](docs/revisao.md), o [gabarito comentado](docs/gabarito-revisao.md) e as [correções e ressalvas técnicas](docs/ressalvas.md).
 
 ## Como estudar
 
@@ -32,6 +32,17 @@ Veja a [revisão para praticar](docs/revisao.md) e as [correções e ressalvas t
 2. Execute o exemplo correspondente na branch do Módulo 01.
 3. Altere um parâmetro, faça uma previsão e compare o resultado.
 4. Volte ao vídeo ou às fontes primárias quando houver dúvida.
+
+## Exemplos executáveis
+
+Na branch `modulo-01-concorrencia-multithreading`, instale **JDK 21+** e Maven 3.9+, então execute:
+
+```bash
+mvn verify
+java -cp target/classes dev.jagella.pos.concorrencia.App
+```
+
+Os exemplos cobrem pool fixo, mapa concorrente, `CountDownLatch`, Fork/Join, composição assíncrona, stream paralelo e threads virtuais com semáforo. São cargas pequenas para estudo, sem pretensão de benchmark ou de simular um serviço de produção. Os testes verificam resultados, propagação de falha e limite de acesso simultâneo.
 
 ## Fontes e limites
 
